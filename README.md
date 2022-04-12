@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python train
 
 The training log will be written in ```outputs/METHOD_NAME/METHOD_NAME_fold_N/debug.log```
 
-4. Test the model
+4. Test the OSG model
 
 ```shell
 CUDA_VISIBLE_DEVICES=0 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python test.py --config configs/Swin+GRU+CLIP+NLP_AUG+COLOR.yaml --valnum 4
