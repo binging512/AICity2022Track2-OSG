@@ -46,7 +46,7 @@ CUDA_VISIBLE_DEVICES=0 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python test.
 
 The Natural Language Augment code can be found in ```nlp```.
 
-1. We use [fanyi.baidu.com](https://fanyi.baidu.com) perform the English-Chinese-English backtranslation
+1. We use [fanyi.baidu.com](https://fanyi.baidu.com) to perform the English-Chinese-English backtranslation
 
 ```shell
 python nlp/nlp_fix_1.py
