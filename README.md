@@ -1,4 +1,4 @@
 # AICity2022Track2-OSG
-
+This is the Part 2.
 
 CUDA_VISIBLE_DEVICES=3 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python train.py --config configs/Swin+GRU+CLIP+NLP_AUG+COLOR+ID_CLS+DECOUPLE.yaml --valnum 4
